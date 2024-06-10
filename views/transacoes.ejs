@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transações</title>
+</head>
+<body>
+    <h1>Transações</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Tipo</th>
+                <th>Categoria</th>
+                <th>Valor</th>
+                <th>Data</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% transacoes.forEach(transacao => { %>
+                <tr>
+                    <td><%= transacao.tipo %></td>
+                    <td><%= transacao.categoria %></td>
+                    <td><%= transacao.valor %></td>
+                    <td><%= transacao.data %></td>
+                    <td><%= transacao.descricao %></td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.custom-background {
+    background-color: #f2f2f2; 
+    padding: 50px; 
+    border-radius: 50px; 
+    margin-top: 150px; 
+    margin-bottom: 20px; 
+}
+.max-width-form {
+    max-width: 400px; 
+    margin: auto; 
+    margin-top: 150px; 
+}
+.login-container {
+    position: relative; 
+}
+.background-image {
+    background: linear-gradient(to bottom, #7d20da, #661cb0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    background-size: contain;
+}
+
+.container {
+    position: relative;
+}
+
+.bottom-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

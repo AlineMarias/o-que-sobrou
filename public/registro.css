@@ -1,0 +1,36 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: linear-gradient(174deg, #a22ded 0%, #5b70bf 100%);
+    color: #000000;
+    overflow-x: hidden;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.custom-background {
+    background-color: #b9dcf9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.register-title {
+    color: #ffff;
+    font-weight: bold;
+}
